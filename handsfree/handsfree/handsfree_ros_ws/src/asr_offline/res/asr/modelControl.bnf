@@ -1,0 +1,9 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar modelControl;
+!slot <switch>;
+!slot <model>;
+
+!start <modelControlstart>;
+<modelControlstart>:[<switch>]<model>;
+<switch>:切换|开启|打开|我要|请打开|请切换;
+<model>:导航!id(1)|导航阿!id(1)|导航模式!id(1)|自由!id(2)|自由模式!id(2)|散步!id(2)|散步模式!id(2)|漫步!id(2)|漫步模式!id(2);

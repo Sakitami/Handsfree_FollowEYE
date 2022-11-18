@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/handsfree/handsfree/darknet_ros_ws/devel/setup.sh

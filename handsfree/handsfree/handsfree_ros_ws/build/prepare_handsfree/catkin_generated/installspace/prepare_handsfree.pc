@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: prepare_handsfree
+Description: Description of prepare_handsfree
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

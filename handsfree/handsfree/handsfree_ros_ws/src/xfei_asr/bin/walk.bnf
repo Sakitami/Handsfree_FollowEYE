@@ -1,0 +1,10 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar walk;
+!slot <walk>;
+!slot <mode>;
+
+!start <walkstart>;
+<callstart>:<walk>[<mode>];
+
+<walk>:自由|散步|漫步|自|由|自幼;
+<mode>:模式;

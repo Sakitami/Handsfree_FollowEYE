@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/devel
+
+Name: handsfree_2dslam
+Description: Description of handsfree_2dslam
+Version: 0.1.0
+Cflags: -I/home/handsfree/handsfree/handsfree_ros_ws/src/handsfree/handsfree_2dslam/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

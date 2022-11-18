@@ -1,0 +1,14 @@
+<launch>
+  <!-- 开启机器人2D建图 -->
+  <include file="$(find prepare_handsfree)/launch/mapping.launch" >
+  	<!-- 关闭rtab提供的定位补偿，使用2D建图进行定位补偿 -->
+  	<arg name="odom_frame_id"  value="odom"/>
+  </include>
+
+  <!-- 开启摄像头和rviz -->
+  <!-- <include file="$(find prepare_handsfree)/launch/xtion_my.launch" /> -->
+  <include file="$(find prepare_handsfree)/launch/xtion_my.launch" />
+
+  <!-- 开启3D建图 -->
+  <include file="$(find prepare_handsfree)/launch/include/rtabmap_mapping.launch" />
+</launch>

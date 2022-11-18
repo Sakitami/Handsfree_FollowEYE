@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: ar_tags
+Description: Description of ar_tags
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

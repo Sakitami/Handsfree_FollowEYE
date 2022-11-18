@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/handsfree/handsfree/handsfree_ros_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/handsfree/handsfree/handsfree_ros_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "files.associations": {
+        "ostream": "cpp",
+        "msp_errors.h": "c",
+        "formats.h": "c",
+        "play_audio.h": "c",
+        "asoundlib.h": "c",
+        "msp_cmn.h": "c",
+        "asr_record.h": "c",
+        "stdlib.h": "c",
+        "fcntl.h": "c"
+    }
+}

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="mbot_gpsinfo" type="upload_gpsinfo.py"     name="mbot_gpsinfo_output" />
+    <node pkg="mbot_gpsinfo" type="connect_database.py"  name="bot_gpsinfo_upload" output="screen" />
+</launch>

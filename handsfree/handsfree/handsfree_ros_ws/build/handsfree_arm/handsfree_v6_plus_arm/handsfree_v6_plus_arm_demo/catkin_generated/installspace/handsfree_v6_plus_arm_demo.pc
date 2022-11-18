@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: handsfree_v6_plus_arm_demo
+Description: Description of handsfree_v6_plus_arm_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

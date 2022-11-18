@@ -1,0 +1,13 @@
+<!-- -->
+
+<!-- 电脑键盘遥控机器人节点-->
+
+<launch>
+
+  <node pkg="prepare_handsfree" type="speed_up.py" name="speed_up" output="screen">
+    <param name="scale_linear" value="0.5" type="double"/>
+    <param name="scale_angular" value="0.5" type="double"/>
+    <remap from="/speed_up/cmd_vel" to="/mobile_base/mobile_base_controller/cmd_vel" />
+  </node>
+  
+</launch>

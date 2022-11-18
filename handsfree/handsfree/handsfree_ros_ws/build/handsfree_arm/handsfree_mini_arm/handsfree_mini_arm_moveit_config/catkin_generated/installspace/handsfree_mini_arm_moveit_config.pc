@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: handsfree_mini_arm_moveit_config
+Description: Description of handsfree_mini_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

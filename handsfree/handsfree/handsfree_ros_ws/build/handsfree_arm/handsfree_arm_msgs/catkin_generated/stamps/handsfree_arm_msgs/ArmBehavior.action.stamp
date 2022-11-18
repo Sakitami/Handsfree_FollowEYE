@@ -1,0 +1,10 @@
+#goal defin
+string behavior
+string target_name
+string gripper_type
+---
+#result defin
+bool result_bool
+---
+#feedback defin
+float64 feedback_bool

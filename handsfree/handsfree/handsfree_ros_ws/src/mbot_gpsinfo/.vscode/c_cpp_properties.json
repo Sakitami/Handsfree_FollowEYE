@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/handsfree/handsfree/darknet_ros_ws/devel/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/asr_offline/include/**",
+        "/home/handsfree/handsfree/vins_mono_ws/src/vins-mono/camera_model/include/**",
+        "/home/handsfree/handsfree/darknet_ros_ws/src/darknet_ros/darknet_ros/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/handsfree/handsfree_2dslam/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/handsfree/handsfree_controller/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/handsfree/handsfree_hw/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/mbot_bringup/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/mbot_gpsinfo/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/prepare_handsfree/include/**",
+        "/home/handsfree/handsfree/handsfree_ros_ws/src/xfei_asr/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

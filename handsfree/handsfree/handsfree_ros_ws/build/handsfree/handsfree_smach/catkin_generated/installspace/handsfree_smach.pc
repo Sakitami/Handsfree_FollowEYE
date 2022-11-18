@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: handsfree_smach
+Description: Description of handsfree_smach
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

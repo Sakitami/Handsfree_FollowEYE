@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/handsfree/handsfree/darknet_ros_ws/devel/lib/python2.7/dist-packages",
+        "/home/handsfree/handsfree/handsfree_ros_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/handsfree/handsfree/darknet_ros_ws/devel/lib/python2.7/dist-packages",
+        "/home/handsfree/handsfree/handsfree_ros_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ]
+}

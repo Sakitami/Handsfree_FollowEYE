@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>handsfree_mini_arm_bringup</name>
+  <version>0.0.0</version>
+  <description>The handsfree_mini_arm_bringup package</description>
+
+  <maintainer email="jacy@todo.todo">jacy</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+
+  </export>
+</package>
+

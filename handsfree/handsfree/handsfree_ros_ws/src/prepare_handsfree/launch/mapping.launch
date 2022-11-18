@@ -1,0 +1,23 @@
+<launch>
+  <arg name="mapping_mode"  default="gmapping" doc="opt: gmapping,hector,cartographer,karto"/>
+  
+  <!-- 是否在建图时开启导航，默认不开启，仅在rrt自主建图时同时进行 -->
+  <arg name="navigation" default="false"/>
+  <arg name="odom_frame_id"  default="odom_combined"/>
+
+  <!-- turn on lidar开启雷达  -->
+  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+
+
+  <!-- 开启gmapping建图算法 -->
+  
+  <include file="$(find handsfree_2dnav)/launch/gmapping.launch" />
+  <!-- 开启底层相关节点 -->
+  <include file="$(find handsfree_hw)/launch/handsfree_hw.launch">
+    <!-- <arg name="navigation" value="$(arg navigation)"/>
+    <arg name="is_cartographer" value="false"/>
+    <arg name="odom_frame_id"   value="$(arg odom_frame_id)"/> -->
+  </include>
+ 
+
+</launch>

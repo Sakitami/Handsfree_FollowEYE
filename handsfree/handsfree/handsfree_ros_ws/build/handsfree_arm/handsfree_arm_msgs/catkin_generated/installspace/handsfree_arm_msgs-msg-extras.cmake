@@ -1,0 +1,2 @@
+set(handsfree_arm_msgs_MESSAGE_FILES "msg/arm_joints_position.msg;msg/arm_joints_state.msg;msg/arm_path.msg;msg/arm_state.msg;msg/PoseEuler.msg;msg/BoundingBox.msg;msg/ArmBehaviorAction.msg;msg/ArmBehaviorActionGoal.msg;msg/ArmBehaviorActionResult.msg;msg/ArmBehaviorActionFeedback.msg;msg/ArmBehaviorGoal.msg;msg/ArmBehaviorResult.msg;msg/ArmBehaviorFeedback.msg")
+set(handsfree_arm_msgs_SERVICE_FILES "srv/SetArmPath.srv;srv/SetFloat32.srv;srv/SetJointPosition.srv;srv/SetJointsPosition.srv;srv/ArmAction.srv;srv/GeneratePose.srv")

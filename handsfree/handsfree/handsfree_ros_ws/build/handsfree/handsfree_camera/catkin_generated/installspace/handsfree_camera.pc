@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: handsfree_camera
+Description: Description of handsfree_camera
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

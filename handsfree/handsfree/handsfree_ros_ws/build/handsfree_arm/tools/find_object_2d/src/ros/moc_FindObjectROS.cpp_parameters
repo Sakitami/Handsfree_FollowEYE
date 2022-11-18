@@ -1,0 +1,13 @@
+-I/home/handsfree/handsfree/handsfree_ros_ws/devel/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DPROJECT_PREFIX="find_object"
+-DPROJECT_VERSION="0.6.3"
+-DPROJECT_NAME="find_object_2d"
+-DOPENCV_DEV
+-DQT_NO_KEYWORDS
+-DROS_PACKAGE_NAME="find_object_2d"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/handsfree/handsfree/handsfree_ros_ws/build/handsfree_arm/tools/find_object_2d/src/ros/moc_FindObjectROS.cpp
+/home/handsfree/handsfree/handsfree_ros_ws/src/handsfree_arm/tools/find_object_2d/src/ros/FindObjectROS.h

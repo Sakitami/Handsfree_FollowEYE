@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/devel
+
+Name: handsfree_mini_arm_controller
+Description: Description of handsfree_mini_arm_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

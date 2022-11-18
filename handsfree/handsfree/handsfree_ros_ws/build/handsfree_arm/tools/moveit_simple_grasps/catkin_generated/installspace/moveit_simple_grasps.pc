@@ -1,0 +1,8 @@
+prefix=/home/handsfree/handsfree/handsfree_ros_ws/install
+
+Name: moveit_simple_grasps
+Description: Description of moveit_simple_grasps
+Version: 1.3.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_simple_grasps -lmoveit_simple_grasps_filter
+Requires: actionlib_msgs geometry_msgs moveit_msgs trajectory_msgs std_msgs message_runtime moveit_visual_tools
